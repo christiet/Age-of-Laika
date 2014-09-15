@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3043D2F19C778A8007135AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3043D2E19C778A8007135AE /* AppDelegate.swift */; };
+		E3043D3119C778A8007135AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3043D3019C778A8007135AE /* ViewController.swift */; };
+		E3043D3419C778A8007135AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3043D3219C778A8007135AE /* Main.storyboard */; };
+		E3043D3619C778A8007135AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3043D3519C778A8007135AE /* Images.xcassets */; };
+		E3043D3919C778A8007135AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3043D3719C778A8007135AE /* LaunchScreen.xib */; };
+		E3043D4519C778A8007135AE /* Age_of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3043D4419C778A8007135AE /* Age_of_LaikaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3043D3F19C778A8007135AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3043D2119C778A8007135AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3043D2819C778A8007135AE;
+			remoteInfo = "Age of Laika";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3043D2919C778A8007135AE /* Age of Laika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age of Laika.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3043D2D19C778A8007135AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3043D2E19C778A8007135AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3043D3019C778A8007135AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3043D3319C778A8007135AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3043D3519C778A8007135AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E3043D3819C778A8007135AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E3043D3E19C778A8007135AE /* Age of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3043D4319C778A8007135AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3043D4419C778A8007135AE /* Age_of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_of_LaikaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3043D2619C778A8007135AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3043D3B19C778A8007135AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3043D2019C778A8007135AE = {
+			isa = PBXGroup;
+			children = (
+				E3043D2B19C778A8007135AE /* Age of Laika */,
+				E3043D4119C778A8007135AE /* Age of LaikaTests */,
+				E3043D2A19C778A8007135AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3043D2A19C778A8007135AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3043D2919C778A8007135AE /* Age of Laika.app */,
+				E3043D3E19C778A8007135AE /* Age of LaikaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3043D2B19C778A8007135AE /* Age of Laika */ = {
+			isa = PBXGroup;
+			children = (
+				E3043D2E19C778A8007135AE /* AppDelegate.swift */,
+				E3043D3019C778A8007135AE /* ViewController.swift */,
+				E3043D3219C778A8007135AE /* Main.storyboard */,
+				E3043D3519C778A8007135AE /* Images.xcassets */,
+				E3043D3719C778A8007135AE /* LaunchScreen.xib */,
+				E3043D2C19C778A8007135AE /* Supporting Files */,
+			);
+			path = "Age of Laika";
+			sourceTree = "<group>";
+		};
+		E3043D2C19C778A8007135AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3043D2D19C778A8007135AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3043D4119C778A8007135AE /* Age of LaikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3043D4419C778A8007135AE /* Age_of_LaikaTests.swift */,
+				E3043D4219C778A8007135AE /* Supporting Files */,
+			);
+			path = "Age of LaikaTests";
+			sourceTree = "<group>";
+		};
+		E3043D4219C778A8007135AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3043D4319C778A8007135AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3043D2819C778A8007135AE /* Age of Laika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3043D4819C778A8007135AE /* Build configuration list for PBXNativeTarget "Age of Laika" */;
+			buildPhases = (
+				E3043D2519C778A8007135AE /* Sources */,
+				E3043D2619C778A8007135AE /* Frameworks */,
+				E3043D2719C778A8007135AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Age of Laika";
+			productName = "Age of Laika";
+			productReference = E3043D2919C778A8007135AE /* Age of Laika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3043D3D19C778A8007135AE /* Age of LaikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3043D4B19C778A8007135AE /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */;
+			buildPhases = (
+				E3043D3A19C778A8007135AE /* Sources */,
+				E3043D3B19C778A8007135AE /* Frameworks */,
+				E3043D3C19C778A8007135AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3043D4019C778A8007135AE /* PBXTargetDependency */,
+			);
+			name = "Age of LaikaTests";
+			productName = "Age of LaikaTests";
+			productReference = E3043D3E19C778A8007135AE /* Age of LaikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3043D2119C778A8007135AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Spire;
+				TargetAttributes = {
+					E3043D2819C778A8007135AE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E3043D3D19C778A8007135AE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E3043D2819C778A8007135AE;
+					};
+				};
+			};
+			buildConfigurationList = E3043D2419C778A8007135AE /* Build configuration list for PBXProject "Age of Laika" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3043D2019C778A8007135AE;
+			productRefGroup = E3043D2A19C778A8007135AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3043D2819C778A8007135AE /* Age of Laika */,
+				E3043D3D19C778A8007135AE /* Age of LaikaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3043D2719C778A8007135AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3043D3419C778A8007135AE /* Main.storyboard in Resources */,
+				E3043D3919C778A8007135AE /* LaunchScreen.xib in Resources */,
+				E3043D3619C778A8007135AE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3043D3C19C778A8007135AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3043D2519C778A8007135AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3043D3119C778A8007135AE /* ViewController.swift in Sources */,
+				E3043D2F19C778A8007135AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3043D3A19C778A8007135AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3043D4519C778A8007135AE /* Age_of_LaikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3043D4019C778A8007135AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3043D2819C778A8007135AE /* Age of Laika */;
+			targetProxy = E3043D3F19C778A8007135AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3043D3219C778A8007135AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3043D3319C778A8007135AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3043D3719C778A8007135AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3043D3819C778A8007135AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3043D4619C778A8007135AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3043D4719C778A8007135AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3043D4919C778A8007135AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Age of Laika/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3043D4A19C778A8007135AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Age of Laika/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E3043D4C19C778A8007135AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Age of LaikaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Age of Laika.app/Age of Laika";
+			};
+			name = Debug;
+		};
+		E3043D4D19C778A8007135AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Age of LaikaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Age of Laika.app/Age of Laika";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3043D2419C778A8007135AE /* Build configuration list for PBXProject "Age of Laika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3043D4619C778A8007135AE /* Debug */,
+				E3043D4719C778A8007135AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3043D4819C778A8007135AE /* Build configuration list for PBXNativeTarget "Age of Laika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3043D4919C778A8007135AE /* Debug */,
+				E3043D4A19C778A8007135AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3043D4B19C778A8007135AE /* Build configuration list for PBXNativeTarget "Age of LaikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3043D4C19C778A8007135AE /* Debug */,
+				E3043D4D19C778A8007135AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3043D2119C778A8007135AE /* Project object */;
+}
