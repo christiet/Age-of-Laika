@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         let yearsFromTextField = Double((humanYearsTextField.text as NSString).doubleValue)
         dogYearsLabel.text = "Laika is \(yearsFromTextField * conversionConstant) years old"
         dogYearsLabel.hidden = false
+        humanYearsTextField.resignFirstResponder()
     }
 
 }
