@@ -30,6 +30,25 @@ class ViewController: UIViewController {
         dogYearsLabel.hidden = false
         humanYearsTextField.resignFirstResponder()
     }
+    
+    @IBAction func convertToRealDogYearsButtonPress(sender: UIButton) {
+        let yearsFromTextField = Double((humanYearsTextField.text as NSString).doubleValue)
+        var realDogYears:Double
+        if yearsFromTextField > 2
+        {
+            realDogYears = (10.5 * 2) + (yearsFromTextField - 2) * 4
+        }
+        else
+        {
+            realDogYears = yearsFromTextField * 10.5
+        }
+        
+        dogYearsLabel.text = "Laika is \(realDogYears) years old"
+        dogYearsLabel.hidden = false
+        humanYearsTextField.resignFirstResponder()
+        
+    }
+    
 
 }
 
